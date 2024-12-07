@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": "."
+	},
+	{
+		"path": "../../Java"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "Wanderlust"
+  }
+}
