@@ -34,6 +34,15 @@ const ejsMate = require("ejs-mate");
 const { log, error } = require("console");
 app.engine("ejs", ejsMate);
 
+// Recommendation 1: Favicon handler
+app.get("/favicon.ico", (req, res) => res.status(204));
+
+// Recommendation 2: Request logging middleware
+app.use((req, res, next) => {
+  console.log(`Received request: ${req.method} ${req.path}`);
+  next();
+});
+
 const session = require("express-session");
 const MongoStore = require("connect-mongo");
 const { url } = require("inspector");
