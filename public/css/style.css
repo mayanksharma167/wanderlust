@@ -12,13 +12,15 @@ body {
 .navbar {
   height: 5rem;
   background-color: #fff;
+  align-items: center;
 }
-.fa-compass {
-  font-size: 2rem;
-  color: #fe424d;
+.fa-kiwi-bird {
+  font-size: 2.3rem;
+  color: #00b4d8;
 }
 .nav-link {
   color: #222222 !important;
+  margin-top: 0.6rem;
 }
 
 /* Footer */
@@ -55,6 +57,7 @@ body {
 .listing-card {
   border: none !important;
   margin-bottom: 2rem;
+  width: 25rem !important;
 }
 .card-img-top {
   border-radius: 1rem !important;
@@ -78,21 +81,24 @@ body {
 }
 /* New page */
 .add-btn {
-  background-color: #fe424d !important;
+  background-color: #00b4d8 !important;
   border: none !important;
 }
 
 /* Edit Page */
 .edit-btn {
-  background-color: #fe424d !important;
+  background-color: #00b4d8 !important;
   border: none !important;
 }
 
 /* show page */
 .show-img {
   height: 40vh;
+  width: 80vh !important;
 }
-
+.card-desc {
+  width: 80vh !important;
+}
 .btns {
   display: flex;
 }

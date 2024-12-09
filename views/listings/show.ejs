@@ -16,9 +16,9 @@
     <div class="card-body">
       <p class="card-text">Owned By: <%= listing.owner.username%> <br /></p>
       <p class="card-text">
-        &#8377; <%= listing.price.toLocaleString("en-IN") %>
+        &#36; <%= listing.price.toLocaleString("en-IN") %>
       </p>
-      <p class="card-text"><%= listing.description %> <br /></p>
+      <p class="card-text card-desc"><%= listing.description %> <br /></p>
       <p class="card-text"><%= listing.location %> <br /></p>
       <p class="card-text"><%= listing.country %> <br /></p>
     </div>
